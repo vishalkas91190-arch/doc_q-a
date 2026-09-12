@@ -1,0 +1,38 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.python-version
+
+# Vector databases & local storage
+faiss_index/
+chroma_db/
+*.faiss
+*.pkl
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
